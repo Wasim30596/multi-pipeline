@@ -1,3 +1,4 @@
+ /*
  module "vpc" {
    source = "../../modules/vpc"
    vpc_cidr_block = "10.0.0.0/16"
@@ -13,3 +14,4 @@
    instance_count =   1
    env = "dev"
  }
+*/
