@@ -16,7 +16,7 @@ resource "aws_subnet" "my_subnet" {
   }
 }
 
-output "subnet-id" {
+output "subnet_id" {
   value = aws_subnet.my_subnet.id
   description = "the Subnet id where my ec2 is to be created"
 }
